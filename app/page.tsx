@@ -35,33 +35,21 @@ export default function ResumePage() {
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-lg font-normal mb-8">tina.cv</h1>
+          <h1 className="text-lg font-normal mb-8">d3fpy.dev</h1>
           <div className="mb-8">
-            <h2 className="text-lg font-normal">TINA REDACTED</h2>
-            <h3 className="text-lg font-normal">DESIGNER</h3>
+            <h2 className="text-lg font-normal">14 year old self-taught python developer</h2>
           </div>
         </div>
 
-        {/* Experience Section */}
-        <div className="mb-12 space-y-1">
-          <div className="flex">
-            <span className="w-20">Company</span>
-            <span className="mx-2">Intern</span>
-            <span className="mx-4">2022 → ....</span>
+        {/* Technology Sections */}
+        <div className="mb-12 space-y-6">
+          <div>
+            <h3 className="mb-1 text-lg font-normal">code stack:</h3>
+            <p className="max-w-xl leading-relaxed">python, fastapi, pydantic, postgresql, sqlalchemy, html5, flask, git, docker</p>
           </div>
-          <div className="flex">
-            <span className="w-20">Company</span>
-            <span className="mx-2">Intern</span>
-            <span className="mx-4">2019 → 2021</span>
-          </div>
-          <div className="flex">
-            <span className="w-20">Company</span>
-            <span className="mx-2">Intern</span>
-            <span className="mx-4">2016 → 2019</span>
-          </div>
-          <div className="flex">
-            <span className="w-20">MISC</span>
-            <span className="mx-4">2012 → 2016</span>
+          <div>
+            <h3 className="mb-1 text-lg font-normal">design stack:</h3>
+            <p className="max-w-xl leading-relaxed">css3, figma, bootstrap, photoshop</p>
           </div>
         </div>
 
