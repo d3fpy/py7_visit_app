@@ -35,7 +35,7 @@ export default function ResumePage() {
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-lg font-normal mb-8">d3fpy.dev</h1>
+          <h1 className="text-lg font-normal mb-8">d3fpy</h1>
           <div className="mb-8">
             <h2 className="text-lg font-normal">14 year old self-taught python developer</h2>
           </div>
@@ -53,14 +53,16 @@ export default function ResumePage() {
           </div>
         </div>
 
-        {/* Footer Links Section */}
+        {/* Footer Link Section */}
         <div className="absolute bottom-8 left-8">
-          <div className="flex space-x-4 text-lg font-mono">
-            <span>Links</span>
-            <span>Twitter</span>
-            <span>Email</span>
-            <span>Blog</span>
-          </div>
+          <a
+            href="https://github.com/d3fpy"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block px-1 transition-colors hover:bg-white hover:text-black"
+          >
+            github
+          </a>
         </div>
       </div>
 
